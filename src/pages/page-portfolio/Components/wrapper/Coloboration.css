@@ -1,0 +1,43 @@
+.digital-solutions{
+width: 201px;
+height: 39px;
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+}
+.coloboration-text{
+width: 337px;
+height: 131px;
+gap: 17px;
+display: flex;
+flex-direction: column;
+}
+.creative-strategy{
+max-width: 377px;
+height: 77px;
+font-family: "Poppins";
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+
+        @media screen and (max-width:414px) {
+            .coloboration-text{
+                gap: 5px;
+            }        
+           .digital-solutions{
+            font-size: 25px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+           }

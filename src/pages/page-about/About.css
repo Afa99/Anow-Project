@@ -1,0 +1,90 @@
+.about{
+    height: 943px;
+}
+
+.title-about{
+font-family: "Poppins";
+font-size: 150px;
+font-weight: 400;
+line-height: 145px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;   
+color: #F7F7F7; 
+width: 100px;
+padding-top: 52px;
+padding-left: 16px;
+}
+.about-us{
+    width: 81px;
+    height: 11px;
+    background: url(../../Components/Images/About-us.svg);
+}
+
+.about-container{
+    width: 100%;
+    height: 943px;
+    display: flex;
+    flex-direction: column;
+}
+.container-text{
+    max-width: 591px;
+    height: auto;
+    display: flex;
+}
+.container-logo{
+    max-width: 480px;
+    height: auto;
+}
+.container-build{
+    max-width: 480px;
+    height: auto;
+}
+.flex-box{
+    max-width: 591px;
+    min-width: 565px;
+    height: 170px;
+    padding-right: 77px;
+    padding-top: 25px;
+    font-family: "Poppins";
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.build-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}           
+
+
+                        @media screen and (max-width: 414px) {
+                            #root{
+                                height: 896px;
+                            }
+                            .about-container{
+                                width: 414px;
+                                height: 896px;
+                                justify-content: center;
+                            }
+                            .title-about{
+                                    margin-top: 0px; 
+                                    padding-left: 0px;
+                                    padding-top: 0px;
+
+                            }
+                            .build-box{
+                                width: 414px;
+                                display: block;
+                            }
+                            .flex-box{
+                                min-width:390px;
+                                max-width: 414px;
+                                padding-top: 0px;
+                                padding-right: 0px;
+                            }
+                            
+                        }

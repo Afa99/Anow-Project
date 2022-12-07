@@ -1,0 +1,45 @@
+.strategy-solutions {
+  width: 216px;
+  height: 39px;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 2px;
+}
+.coloboration-text {
+  width: 337px;
+  height: 131px;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+}
+.creative-strategy {
+  width: 337px;
+  height: 70px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width:414px) {
+  .creative-strategy {
+    font-size: 20px;
+    color: gray;
+  }
+  .strategy-solutions {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+}

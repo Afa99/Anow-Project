@@ -1,0 +1,26 @@
+.logo-box{
+    width: 100%;   
+    
+}    
+.title-about{
+font-family: "Poppins";
+font-size: 150px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 45px;
+padding-left: 17px;
+margin-bottom: 0;
+}
+
+
+    @media screen and (max-width:414px) {
+        .title-about{
+            margin-top: 0px;
+            padding-left: 0px;
+            margin-bottom: 40px;
+            font-size: 70px;
+        }
+        
+    }

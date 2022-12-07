@@ -1,0 +1,282 @@
+.anow-page {
+  width: 1440px;
+  height: 447px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 116px;
+  gap: 40px;
+}
+.anow-box {
+  width: 1140px;
+  height: 207px;
+    padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+.anow {
+  height: 57px;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 112px;
+
+}
+.numbers-futer {
+  width: 332px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.042em;
+  text-align: left;
+  gap: 15px;
+  color: #ffffff99;
+  padding-top: 12px;
+}
+.hpb-container{
+    display: flex;
+    flex-direction: row;
+    padding-right: 82px;
+    padding-bottom: 7px;
+    gap: 114px;
+}
+.home-box{
+width: 135px;
+height: 129px;
+display: flex;
+flex-direction: column;
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.home-portfolio{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color:#BABABA;
+
+}
+.title-home{
+    margin-bottom: 16px;
+}
+.portfolio-box{
+    font-family: "Poppins";
+font-size: 14px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #BABABA;
+padding-right: 11px;
+
+}
+.title-portfolio{
+    font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 16px;
+color: white;
+}
+.blog-box{
+    font-family: "Poppins";
+font-size: 13px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #BABABA;
+
+}
+.title-blog{
+    font-family: "Poppins";
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-bottom: 16px;
+}
+.rules{
+    font-family: "Poppins";
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: center;
+display: flex;
+flex-direction: row;
+color: #BABABA;
+
+
+}
+.digital-bit{
+    font-family: "Poppins";
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+color: white;
+gap: 3px;
+height: 30px;
+width: 86px;
+
+
+
+}
+.author{
+    font-family: "Poppins";
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.30000001192092896px;
+text-align: center;
+color: white;
+width: 68px;
+height: 30px;
+
+}
+
+
+        @media screen and (max-width:414px) {
+           .anow-page{
+            width: 414px;
+            height: 1140px;
+            gap: 30px;
+            justify-content: space-around;
+            margin-top: 30px;
+
+           } 
+           .anow-box{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+
+           }
+           .anow{
+            padding-bottom: 0px;
+            font-size: 100px;
+            padding-bottom: 0px;
+            width: 100%;
+            align-items: center;
+            height: auto;
+            color: dodgerblue;
+           }
+           .numbers-futer{
+            letter-spacing: 0px;
+            width: 380px;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            font-size: 19px;
+           }
+           .hpb-container{
+            width: 414px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            padding-right: 0px;
+            padding-bottom: 0px;
+         
+        }
+        .title-home{
+            font-size: 69px;
+            color: yellow;
+        }
+        .title-portfolio{
+            font-size: 69px;
+            color: yellow;
+        }
+        .title-blog{
+            font-size: 69px;
+            color: yellow;
+
+        }
+        .blog-box{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            font-size:30px;
+
+        }
+        .portfolio-box{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            font-size: 30px;
+        }
+        .home-box{
+            display: flex;
+            height: 180px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .home-portfolio{
+            gap: 15px;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+           
+
+        }
+        .rules{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            font-size: 32px;
+        }
+        .digital-bit{
+            font-size: 36px;
+            color: #FD8558;
+            width: 100%;
+        }
+        .author{
+            font-size: 36px;
+            color: #FD8558;
+            width: 100%;
+        }
+        .numbers-futer{
+            color: #FD8558;
+        }
+        }

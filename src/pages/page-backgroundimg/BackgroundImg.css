@@ -1,0 +1,92 @@
+.background{
+    width: 1440px;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+}
+.photo__box{
+    width: 25%;
+    height: 720px;
+    position: relative;
+}
+.top{
+    width: 360px;
+    height: 360px;
+    background: url(../../Components/Images/fga.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.bottom{
+    width: 360px;
+    height: 360px;
+    background: url(../../Components/Images/parus.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.center-img{
+    width: 50%;
+    height: 720px;
+    background: url(../../Components/Images/BackgroundImg.png);
+    position: relative;
+}
+.photo-container{
+    width: 25%;
+    height: 720px;
+    position: relative;
+}
+.graffity{
+    width: 360px;
+    height: 360px;
+    background: url(../../Components/Images/graffity.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.crazy-max{
+    width: 320px;
+    height: 126px;
+
+    /* display: flex; */
+
+}
+
+
+        @media screen and (max-width:414px) {
+          .background{
+            max-width: 414px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+          }
+          .photo__box{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+          }
+          .center-img{
+            width:100%;
+            height: 720px;
+            background-position: center;
+
+          }
+          .photo-container{
+              width: 414px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+          
+
+        }

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';  
+import Presentation from './pages/page-presentation/Presentation';
+import Header from './pages/page-presentation/components/header/Header';
+import About from './pages/page-about/About';
+import Portfolio from './pages/page-portfolio/Portfolio';
+import BackgroundImg from './pages/page-backgroundimg/BackgroundImg';
+import Laboratory from './pages/page-laboratory/Laboratory';
+import Purple from './pages/page-purple/Purple';
+import Email from './pages/page-email/Email';
+import Futer from './pages/page-futer/Futer';
+  
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App() {  
+  return(
+    <div>
+      <Header/>
+      <Presentation/>
+      <About/>
+      <Portfolio/>
+      <BackgroundImg/>   
+      <Laboratory/> 
+      <Purple/> 
+      <Email/> 
+      <Futer/>  
     </div>
   );
-}
-
+ }
 export default App;

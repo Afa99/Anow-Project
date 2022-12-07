@@ -1,0 +1,221 @@
+.image-box{
+    width: 1440px;
+    height: 766px;
+    background: url(../../Components/Images/Image.svg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container{
+        max-width: 1440px;
+        height: 766px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.saturn{
+    width: 183px;
+    height: 183px;
+    background: url(../../Components/Images/saturn.svg);
+    position: absolute;
+    right:130px;
+    top: 15px;
+
+}
+.ximg{
+    background: url(../../Components/Images/X.svg);
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 585px;
+    left: 97px;
+    border-radius: 0px;
+}
+.marg__picture{
+position: absolute;
+left: 0; 
+top: -74px;
+z-index: 0;
+min-width: 239px;
+height: 233px;
+border-radius: 0;
+background: url(../../Components/Images/lefttop.svg);
+}
+.xpicture{
+ position: absolute;
+ height: 34px;
+ width: 34px;
+ left: 1294px;
+ top: 329px;
+ border-radius: 0px; 
+background: url(../../Components/Images/X2.svg);
+
+}
+.botttom_picture{
+    position: absolute;
+    height: 172px;
+    width: 690px;
+    right: 0;
+    top: 594px;
+    border-radius: 0px;    
+    background: url(../../Components/Images/back.svg);
+}
+.circle{
+position: absolute;
+background: url(../../Components/Images/Frame.svg);
+border-radius: 0px;
+width: 530px;
+height: 529px;
+z-index: 0  ;
+right: 35px;
+bottom: 121px;
+
+}
+
+.wrapper{
+    flex-direction: column;
+    align-items: center;
+    height: 546px;
+    padding-top: 132px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    gap: 41px;
+}
+.text-design{
+font-family: "Poppins";
+font-size: 70px;
+font-weight: 400;
+line-height: 85px;
+letter-spacing: 0em;
+text-align: center;
+min-width: 632px;
+letter-spacing: 0.4px;
+}
+.text-visual{
+    font-family: "Poppins";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: center;
+    min-width: 632px;
+    letter-spacing: 0.4px;
+ }
+.z-index-container{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.z-index-buttons{
+    z-index: 1;
+    display: flex;
+    gap: 28px;
+}
+.orange{
+cursor: pointer;
+
+padding-left: 3px;
+height: 56px;
+width: 154px;
+background: #FD8558;
+color: white;
+border-radius: 0px;
+font-family: "Poppins";
+font-size: 15px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.black{
+cursor: pointer;
+
+    height: 54px;
+    width: 150px;
+    background: black;
+    color: white;
+    border-radius: 0px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+            @media screen and (max-width: 414px){
+                .image-container{
+                    max-width: 414px;
+
+                }
+                .image-box{
+                    width: 414px;
+                    height: 896px;
+                }
+                .wrapper{
+                    width: 100%;
+                    gap: 0px;
+                }
+                .z-index-buttons{
+                    gap: 40px;
+                }
+                .z-index-container{
+                    padding-top: 30px;
+                    width: 100%;
+
+                }
+                .text-design{
+                    min-width: 200px;
+                    font-size: 49px;
+                }
+                .text-visual{
+                    min-width: 200px;
+                    font-size: 49px;
+
+                }
+                .xpicture{
+                    left: 374px;
+                    top: 2px;
+                }
+                .botttom_picture{
+                    display: none;
+                }
+                .circle{
+                    bottom: -30px;
+                    width: 443px;
+                    right: 0px;
+        
+                }
+                .saturn{
+                    right: 2px;
+
+                }
+                .ximg{
+                    left: 20px;
+                    top: 720px;
+                }
+                .text-visual{
+                    display: flex;
+                    justify-content: center;
+                }
+                .text-design{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            
+
+

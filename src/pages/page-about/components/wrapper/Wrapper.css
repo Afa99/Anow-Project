@@ -1,0 +1,38 @@
+.strok{
+height: 56px;
+max-width: 565px;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #222222;
+
+}
+.second-strok{
+height: 102px;
+max-width: 591px;
+padding-top: 10px;
+}
+.wrapper-container{
+    width: 600px;
+    height: 169px;
+    gap: 11px;
+}
+
+
+    @media screen and ( max-width: 414px) {
+        .wrapper-container{
+            width: 414px;
+        }
+        .strok{
+            display: none;
+        }
+        .second-strok{
+            max-width: 414px;
+            font-size: 18px;
+            color: gray;
+            text-align: center;
+        }
+    }

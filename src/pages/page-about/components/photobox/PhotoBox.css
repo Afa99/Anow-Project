@@ -1,0 +1,97 @@
+.photo-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    
+}
+.img-container{
+    background: url(../../../../Components/Images/office.svg);
+    width: 600px;
+    height: 441px;
+    margin-top: 41px;
+
+
+}
+.prewiev{
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 180px;
+    max-width: 387px;
+}
+.info{
+    padding-right: 22px;
+    padding-top: 79px;
+    height: 441px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.photographer{
+    max-width: 147px;
+    height: 62px;
+
+}
+.color-orange{
+    color: #FD8558;
+}
+.frankie{
+ width: 119px;
+    height: 20px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+    
+    }
+.adp{
+  height: 22px;
+ font-family: "Poppins";
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 22px;
+ letter-spacing: 1.7999999523162842px;
+ text-align: left;
+ color: #CACACA;
+ padding-top: 12px;
+}
+
+
+        @media screen and (max-width:414px) {
+            .photo-box{
+                gap: 5px;
+                display: block;
+            }
+            .img-container{
+                width: 414px;
+                z-index: 1;
+                margin-top: 0px;
+                position: relative;
+
+            }
+            .info{
+                padding-right: 0px ;
+                padding-top: 0px;
+                align-items: flex-end;
+                justify-content: flex-start;
+                position: absolute;
+                z-index: 2;
+                color: white;
+                top: 1600px;
+                height: 240px;
+                padding-left: 15px;
+
+            }
+            .frankie{
+                color: white;
+            }
+            
+        }
